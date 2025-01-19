@@ -35,6 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.8rem;
+  padding-bottom: 35px;
 }
 
 .content {
@@ -103,6 +104,7 @@ body {
   display: flex;
   justify-content: right;
   align-items: center;
+  animation: pulse 3s infinite ease-in-out;
 }
 
 .info-icon img {
@@ -292,23 +294,6 @@ body {
   transition: color 0.3s;
 }
 
-.widget-5{
-  width: 100%;
-  height: 16%;
-  gap: 0.8rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.download{
-  background-color: var(--color-black);
-  padding: 8px 15px;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 /* ========================= WIDGET 4 */
 .widget-4 {
   width: 100%;
@@ -327,6 +312,78 @@ body {
   align-items: center;
   justify-content: left;
   gap: 10px;
+}
+
+/* ========================= WIDGET 5 */
+.widget-5 {
+  width: 100%;
+  height: 16%;
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link-document {
+  background-color: var(--color-primary);
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    i {
+      font-size: 3rem;
+      animation: pulse 3s infinite ease-in-out;    }
+
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}
+/* ========================= WIDGET 6 */
+.widget-6{
+  width: 100%;
+  height: 16%;
+  gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  span{
+    margin-top: 12px;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.widget-1,
+.widget-2,
+.tread,
+.box-social,
+.link-contact,
+.widget-5{
+  transition: transform 0.3s ease;
+}
+
+.widget-1:hover,
+.widget-2:hover,
+.tread:hover,
+.box-social:hover,
+.link-contact:hover,
+.widget-5:hover {
+    transform: translateY(-5px);
 }
 
 /* ========================= LOADING-SCREEN */
