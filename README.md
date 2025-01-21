@@ -8,6 +8,8 @@ Com uma interface atrativa, o Link Hub inclui:
 Ideal para quem deseja se conectar e mostrar o melhor de si de maneira profissional e organizada! 🚀
 
 
+![Descrição da imagem](banner-readme.jpg)
+
 
 ## Funcionalidades
 - Centralizar links importantes
