@@ -52,7 +52,7 @@ Ideal para quem deseja se conectar e mostrar o melhor de si de maneira profissio
 
 ## Visualização
 
-👉 Visite a página na web clicando em [**Preview**](https://deveverllon.github.io/link-bio/){:target="_blank"}.
+👉 Visite a página na web clicando em [**Preview**](https://deveverllon.github.io/link-bio/)
 
 Ou copie o link direto no navegador:  
 `https://deveverllon.github.io/link-bio/`
