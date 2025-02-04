@@ -52,7 +52,7 @@ Ideal para quem deseja se conectar e mostrar o melhor de si de maneira profissio
 
 ## Visualização
 
-👉 Visite a página na web clicando em <a href="https://deveverllon.github.io/link-hub/)" target="_blanck"><strong>Preview</strong></a>
+👉 Visite a página na web clicando em <a href="https://deveverllon.github.io/link-hub/" target="_blanck"><strong>Preview</strong></a>
 
 Ou copie o link direto no navegador:  
 `https://deveverllon.github.io/link-hub/`
